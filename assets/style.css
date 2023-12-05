@@ -90,6 +90,10 @@ header {
     font-weight: 500;
 }
 
+header #close {
+    display: none;
+}
+
 .nav-list {
     list-style: none;
 }
@@ -345,6 +349,10 @@ footer .apps img {
     /* Header */
     header {
         position: relative;
+    }
+
+    header #close {
+        display: block;
     }
 
     header .nav-menu {
