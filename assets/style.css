@@ -171,6 +171,16 @@ header {
     margin-right: 5px;
 }
 
+#course .mcard-image {
+    position: relative;
+}
+
+#course .new {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
 /* Membership Section */
 #membership {
     background-color: var(--cream);
@@ -381,7 +391,7 @@ footer .apps img {
     /* Course */
 
     #course .course-option {
-        display: block;=
+        display: block;
     }
 
     /* Membership Section */
